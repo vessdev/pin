@@ -1,0 +1,68 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 98%;
+  display: flex;
+  justify-content: left;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 1% 0 1%;
+}
+
+header img {
+  height: 24px;
+  width: 24px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+header img:hover {
+  background-color: #f2f3f4;
+}
+
+header p {
+  padding: 10px;
+  margin: 3px 0 0 0;
+  border-radius: 10px;
+}
+
+header p:hover {
+  background-color: #f2f3f4;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header form {
+  flex: 2;
+}
+
+header form input {
+  margin: 4px 1% 0 1%;
+  width: 97%;
+  border-radius: 20px;
+  padding: 13px 0 13px 10px;
+  border: none;
+  background-color: #f2f3f4;
+}
+
+header form input:focus {
+  outline: none;
+}
+
+.headelem {
+  margin: 15px 5px 25px 5px;
+}
+
+#photo {
+  display: flex;
+  justify-content: left;
+  margin-top: 100px;
+}
+
+#photo img {
+  border-radius: 30px;
+  max-width: 200px;
+  margin: 10px;
+}
